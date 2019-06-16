@@ -84,6 +84,9 @@ position: -webkit-sticky; /* Safari */
     
 
 }
+#photos img:hover{
+    transform: scale(1.1);
+}
 
 
 #bottomhalf{
@@ -167,14 +170,15 @@ p{
 .ui_card > .box .content .first ,.second ,.third{
     width: 200px;
     height: 40px;
-    background: #00001a;
+    /* background: #00001a; */
     align-items: center;
 
 
 }
 .ui_card > .box .content .first h2{
     
-   color: 	 #ff3333;
+   /* color: 	 #ff3333; */
+   color: #ff4d4d;
 }
 .ui_card > .box .content .second h2{
     
@@ -216,7 +220,7 @@ p{
       text-decoration: none; }
   
   .ui_card > .box .content .one:hover {
-      background: #ff3333;
+      background: #ff4d4d;
       color: black; }
     .ui_card > .box .content .two:hover {
     background: #66b3ff;
