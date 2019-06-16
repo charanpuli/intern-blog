@@ -1,6 +1,6 @@
 @font-face{
     font-family: googlesans;
-    src: url(/fonts/GoogleSans-Bold.ttf)
+    src: url(../fonts/GoogleSans-Bold.ttf)
 }
 
 body{
@@ -15,7 +15,7 @@ body{
 
     width: 100%;
     height: 420px;
-    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('/images/bestnight.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('../images/bestnight.jpg');
     background-size: cover;
     background-position: center;
     
