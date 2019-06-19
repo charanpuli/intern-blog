@@ -85,7 +85,26 @@ position: -webkit-sticky; /* Safari */
 
 }
 #photos img:hover{
-    transform: scale(1.1);
+    animation: rotate 1s linear forwards;
+    /* -webkit-animation: rotate 1.5s linear forwards; */
+    /* -webkit-animation-fill-mode: forwards; 
+    animation-fill-mode: forwards; */
+   
+}
+@keyframes rotate{
+    100%{
+        /* transform: rotate(360deg); */
+        transform: scale(1.1);
+        -webkit-filter: drop-shadow(5px 5px  #00394d);
+         filter: drop-shadow(5px 5px  #00394d);
+    }
+
+}
+@-webkit-keyframes rotate{
+    100%{
+        /* transform: rotate(360deg); */
+    }
+
 }
 
 
@@ -153,6 +172,7 @@ p{
       border-radius: 10px;
       background: #000000;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+      
       text-align: left;
       transition: .5s; }
   
@@ -221,7 +241,8 @@ p{
   
   .ui_card > .box .content .one:hover {
       background: #ff4d4d;
-      color: black; }
+      color: black;
+     }
     .ui_card > .box .content .two:hover {
     background: #66b3ff;
     color: black; }
@@ -238,6 +259,12 @@ p{
       opacity: 1;
       bottom: 0; }
   
-  .ui_card > .box:hover {
+  .ui_card > .firstbox:hover {
       transform: translateY(-30px);
-      box-shadow: 0 35px 35px rgba(0, 0, 0, 0.8); }
+      box-shadow: 0 5px 15px #ff4d4d }
+    .ui_card > .secondbox:hover {
+        transform: translateY(-30px);
+        box-shadow: 0 5px 15px  #66b3ff}
+    .ui_card > .thirdbox:hover {
+            transform: translateY(-30px);
+            box-shadow: 0 5px 15px #ffd633 }
