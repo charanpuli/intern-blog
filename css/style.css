@@ -82,10 +82,11 @@ position: -webkit-sticky; /* Safari */
     width: 300px;
     
     
+    
 
 }
 #photos img:hover{
-    animation: rotate 1s linear forwards;
+    animation: rotate 1ms linear forwards;
     /* -webkit-animation: rotate 1.5s linear forwards; */
     /* -webkit-animation-fill-mode: forwards; 
     animation-fill-mode: forwards; */
