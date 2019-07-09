@@ -52,7 +52,7 @@ img { margin: 0; padding: 0; border: 0 }
 .img_fr { float: right; margin: 1px 0 8px 20px }
 
 p { margin: 0 0 15px 0;
-	font-size: 18px;
+	font-size: 20px;
 	padding: 0 }
 em { color: #fff }
 
@@ -167,7 +167,7 @@ ol.number_list li a:hover { color: #b9becd }
 	line-height: 41px;
 	padding: 0 30px;
 	margin-right: 1px;
-	font-size: 14px;
+	font-size: 20px;
 }
 #templatemo_menu ul li a:hover, #templatemo_menu ul li a.selected {
 	color: #d10f9a;
@@ -256,7 +256,7 @@ ul.even_list li a span.place { color: #fff840 }
 	color: #999999;  
 	background: #111111; 
 	border: 1px solid #333333;
-	font-family: Tahoma, Geneva, sans-serif;
+	font-family: googlesans !important;
 }
 
 #contact_form form label { display: block; margin-bottom: 5px; }
@@ -269,7 +269,7 @@ ul.even_list li a span.place { color: #fff840 }
 	color: #999999;  
 	background: #111111; 
 	border: 1px solid #333333; 
-	font-family: Tahoma, Geneva, sans-serif;
+	
 }
 
 .comment_list { margin: 0; padding: 0; list-style: none }
@@ -293,7 +293,7 @@ ul.even_list li a span.place { color: #fff840 }
 	color: #999999;  
 	background: #111111; 
 	border: 1px solid #333333; 
-	font-family: Tahoma, Geneva, sans-serif;
+	
 }
 
 #comment_form form label { display: block }
@@ -306,7 +306,7 @@ ul.even_list li a span.place { color: #fff840 }
 	color: #999999;  
 	background: #111111; 
 	border: 1px solid #333333; 
-	font-family: Tahoma, Geneva, sans-serif;
+
 }
 
 /* sidebar */
